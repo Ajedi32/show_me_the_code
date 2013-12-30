@@ -12,6 +12,9 @@ chrome.runtime.onMessage.addListener(function(response) {
 document.addEventListener('DOMContentLoaded', function() {
 	// Search the page for links to code hosting websites and display them in this popup.
 	chrome.tabs.executeScript({
+		file: 'repo_matchers.js'
+	});
+	chrome.tabs.executeScript({
 		file: 'get_links.js'
 	});
 });

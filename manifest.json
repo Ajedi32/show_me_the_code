@@ -3,6 +3,7 @@
   "description": "A quick way to find links to common code hosting websites (e.g. GitHub) on any webpage.",
   "version": "0.1.0",
   "web_accessible_resources": [
+    "repo_matchers.js",
     "get_links.js"
   ],
   "permissions": [
